@@ -198,6 +198,7 @@ hr{
     background-color: rgba(0, 0, 0, 0.486);
     border-radius: 8px;
     margin-left: 500px;
+    padding-bottom: 10px;
     float: left;
 }
 
@@ -216,6 +217,10 @@ hr{
     text-shadow: 2px 2px #000000;
     float: left;
     padding-left: 10px;
+}
+
+.boton_compra{
+    margin-left: 50px;
 }
 
 footer{

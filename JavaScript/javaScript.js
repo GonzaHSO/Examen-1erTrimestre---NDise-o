@@ -99,3 +99,44 @@ function cambio_Imagen_oferta(x) {
 function imagen_predeterminada_oferta(x){
     x.src = "Imagenes/apartado_ofertas.png";
 }//Fin Función
+
+//Comprar productos - SECCION_CACHIMBA.HTML
+
+var steam = document.getElementById("steam");
+var wookah = document.getElementById("wookah");
+
+function ArticuloCachimba(seccion, articulo, precio, stock){
+    this.seccion = seccion;
+    this.articulo = articulo;
+    this.precio = precio;
+    this.stock = stock;
+
+    function imprimeSeccion(){
+        return this.seccion;
+    }//Fin Función
+
+    function imprimeArticulo(){
+        return this.articulo;
+    }//Fin Función
+
+    function imprimePrecio(){
+        return this.precio;
+    }//Fin Función
+}//Fin Objeto
+
+var carrito = new Array;
+var steamulation = new ArticuloCachimba("Cachimba","Steamulation","299,99","100");
+var wookah = new ArticuloCachimba("Cachimba","Wookah","299,99","0");
+
+steam.addEventListener('click', function(event){
+    var i;
+    if(steamulation.stock > 0){
+        carrito.push("");
+        do{
+            i++;
+        }while(carrito[i] != "");
+        carrito[i] = steamulation;
+        return alert(carrito[0].imprimeArticulo+" "+carrito[0].imprimePrecio);
+    }//Fin Si
+}//Fin Función
+);

@@ -1,0 +1,208 @@
+/* Autor: Gonzalo Mejias Girol*/
+/* INDEX.HTML -------------------------------------------------------- */
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.pagina_principal{
+    text-align: center;
+}
+
+.inicio_sesion{
+    text-align: right;
+    color: white;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+
+.inicio_sesion a{
+    text-decoration: none;
+    color: white;
+}
+
+.titulo{
+    margin-top: 5%;
+    font-size: 80px;
+    letter-spacing: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 5px 5px #000000;
+}
+
+.titulo p{
+    font-size: 30px;
+    letter-spacing: normal;
+}
+
+/* INDEX.HTML */
+.seccion{
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: relative;
+    text-shadow: 3px 3px #000000;
+}
+
+.seccion_cachimbas{
+    padding-left: 550px;
+    padding-right: 200px;
+    padding-top: 40px;
+    position: relative;
+    float: left;
+}
+
+.seccion_cazoletas{
+    padding-right: 200px;
+    padding-top: 40px;
+    position: relative;
+    float: left;
+}
+
+.seccion_accesorios{
+    padding-right: 200px;
+    padding-top: 40px;
+    position: relative;
+    float: left;
+}
+
+.seccion_boquillas{
+    padding-right: 100px;
+    padding-left: 650px;
+    padding-top: 60px;
+    position: relative;
+    float: left;
+}
+
+.seccion_ofertas{
+    padding-right: 100px;
+    padding-top: 60px;
+    position: relative;
+    float: left;
+}
+
+/* INICIO_SESION.HTML -------------------------------------------------------- */
+
+.titulo_is{
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 3px 3px #000000;
+}
+
+#formularioIS{
+    background-color: rgba(3, 3, 3, 0.452);
+    width: 400px;
+    height: 450px;
+    margin-left: 750px;
+    border-radius: 4%;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.nCampo{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+.campo{
+    background-color: rgba(255, 255, 255, 0);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgba(255, 255, 255, 0.562);
+    color: white;
+    outline: none;
+}
+
+#enviar{
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.658);
+    border: 0;
+    padding: 3px;
+    margin-left: 300px;
+}
+
+#record_Pass{
+    padding-top: 15px;
+    padding-left: 10px;
+    color: orange;
+    font-size: 15px;
+}
+
+#error{
+    font-size: 20px;
+    padding-left: 20px;
+    color: rgb(255, 154, 154);
+}
+
+hr{
+    margin-left: 25px;
+    width: 350px;
+}
+
+.sinCuenta{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px #000000;
+}
+
+#registrate{
+    text-decoration: overline;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 135px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px #000000;
+}
+
+/* SECCION_CACHIMBA.HTML -------------------------------------------------------- */
+
+.tituloEternitySecciones{
+    margin-top: 1%;
+    font-size: 80px;
+    letter-spacing: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 5px 5px #000000;
+}
+
+.tituloEternitySecciones p{
+    font-size: 30px;
+    letter-spacing: normal;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    position: fixed;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 9px;
+    font-size: 20px;
+    color: white;
+}

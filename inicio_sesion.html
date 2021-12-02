@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Autor: Gonzalo Mejias Girol -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Eternity Shisha Shop </title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body background="Imagenes/fondo.jpg">
+    
+    <div class="pagina_principal">
+        <header>
+            <div class="inicio_sesion">
+                <a href="index.html"> Volver </a>
+            </div>
+        </header>
+        <div class="titulo">
+            Eternity <br>
+            <p> Shisha Shop </p>
+        </div>
+        <br> <br>
+        <div id="formularioIS">
+            <p class="titulo_is"> Iniciar Sesión </p>
+            <br> <br> <br>
+            <form name="inicioSesion" id="formularioIniSes" action="index.html" method="post">
+                <label class="nCampo" for="nombre"> Usuario o email </label>
+                <input class="campo" type="text" name="user" id="user" size="25"/>
+                <br> <br> <br>
+                <label class="nCampo" for="contraseña"> Contraseña </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="campo" type="password" name="pass" id="pass"/>
+                <p id="record_Pass"> ¿Has olvidado tu contraseña? </p>
+                <br>
+                <input class="boton" type="submit" name="enviar" id="enviar" value="Conectar"/>
+                <br> <br>
+                <div id="error"></div>
+            </form>
+            <br>
+            <hr>
+            <p class="sinCuenta"> ¿Aun no tienes cuenta? </p>
+            <a id="registrate" href=""> Registrarse </a>
+        </div>
+        <script src="JavaScript/javaScript.js"></script>
+        <footer>
+            Aviso Legal &nbsp;&nbsp;&nbsp;&nbsp; Politica de Privacidad &nbsp;&nbsp;&nbsp;&nbsp; Cookies &nbsp;&nbsp;&nbsp;&nbsp; 
+        </footer>
+    </div>
+</body>
+</html>

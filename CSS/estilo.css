@@ -194,6 +194,30 @@ hr{
     letter-spacing: normal;
 }
 
+.producto{
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 8px;
+    margin-left: 500px;
+    float: left;
+}
+
+.nombre{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    text-shadow: 2px 2px #000000;
+    padding-left: 10px;
+}
+
+.precio{
+    font-size: 20px;
+    text-align: right;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    float: left;
+    padding-left: 10px;
+}
+
 footer{
     background-color: rgba(0, 0, 0, 0.452);
     width: 100%;
